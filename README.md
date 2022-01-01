@@ -12,5 +12,8 @@ but there is gotcha here:
 
 ----
 to build and run with docker compose, I have added a simple compose file
-`docker compose up`
-`docker compose down`
+
+```
+docker compose up
+docker compose down
+```
