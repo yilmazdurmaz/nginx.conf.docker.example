@@ -9,3 +9,8 @@ but also serves as an example on its own for using nginx docker image to serve t
 but there is gotcha here:
 
 - if one tries to serve any file with this `*.(html|css|js)(.*)` signature from `backend`, they will be treated as if they were in `/frontend` folder and thus will give error, unless have a duplicate name in frontend as in `/static/index.html`. here `host/static` is server from backend, but `host/static/index.html` is served from frontend
+
+----
+to build and run with docker compose, I have added a simple compose file
+`docker compose up`
+`docker compose down`
